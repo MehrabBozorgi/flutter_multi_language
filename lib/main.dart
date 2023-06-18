@@ -25,10 +25,11 @@ class MyApp extends StatelessWidget {
         Locale('en', ''), // English, no country code
         Locale('fa', ''), // Spanish, no country code
       ],
-      home:FirstScreen() ,
+      home: FirstScreen(),
     );
   }
 }
+
 class FirstScreen extends StatelessWidget {
   const FirstScreen({Key? key}) : super(key: key);
 
